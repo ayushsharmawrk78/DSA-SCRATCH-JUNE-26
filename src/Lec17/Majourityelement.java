@@ -4,8 +4,12 @@ public class Majourityelement {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int []arr = {2,1,2,3,2,2,2,1,2,1,3,4};
-System.out.println(majourity(arr));
+//int []arr = {2,1,2,3,2,2,2,1,2,1,3,4};
+//System.out.println(majourity(arr));
+
+
+
+
 	}
 	
 	
