@@ -35,6 +35,8 @@ c1 +=9;//c1 = (byte) (c1+2);
 
 
 byte d1 =127;
+
+
 d1++; // d1 =(byte)(d1+1);
 System.out.println(d1);
 	}
