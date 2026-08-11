@@ -3,7 +3,7 @@ package lec22;
 public class Boardpath {
 
 	public static void main(String[] args) {
-		boardpath(0, 4, "");
+		boardpath(0, 4, "",3);
 		
 		
 //		int i =0;
