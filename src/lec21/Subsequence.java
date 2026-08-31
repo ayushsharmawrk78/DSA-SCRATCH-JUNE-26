@@ -4,7 +4,7 @@ public class Subsequence {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-sub("abc", "");
+sub("123", "");
 	}
 	
 	public static void sub(String q , String  ans) {
@@ -13,9 +13,9 @@ sub("abc", "");
 			return;
 		}
 		
-		
-		sub(q.substring(1)  , ans+"");
 		sub(q.substring(1)  , ans+q.charAt(0));
+		sub(q.substring(1)  , ans+"");
+		
 	}
 
 }
