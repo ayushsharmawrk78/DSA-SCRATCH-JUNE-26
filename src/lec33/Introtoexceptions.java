@@ -18,7 +18,7 @@ public  static void fun2() throws Exception {
 	}
 public static void fun3() throws Exception {
 	
-	fun4(-2);
+	fun4();
 	
 }
 public static void fun4(int a) throws Exception {

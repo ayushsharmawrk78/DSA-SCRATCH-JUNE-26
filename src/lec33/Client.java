@@ -1,14 +1,19 @@
 package lec33;
 
-public class Client {
+import Lec36.P;
+
+public class Client extends P{
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 //System.out.println("hello");
 //		
 		Student s = new Student("vaibhav",22);
+	Client obj = new Client();
+	obj.z=30;
+
+	obj.s2=30;
 	
-		
 		System.out.println("hello after object");
 		
 		s.setage(-10);

@@ -17,7 +17,7 @@ public class trycatchblocks {
 		
 		try {
 			int []arr = new int [4];
-			System.out.println(arr[7]);
+		System.out.println(arr[7]);
 		//int a = 10/0;
 			
 //			Object  a = null;
