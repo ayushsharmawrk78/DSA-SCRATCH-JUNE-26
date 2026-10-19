@@ -24,6 +24,11 @@ System.out.println(ll.removefirst());
 		ll.addatindex(60,1);
 		System.out.println(ll.removeatindex(1));
 		System.out.println(ll);
+		ll.addlast(100);
+		System.out.println(ll);
+//		ll.addcycle(2);
+		
+		System.out.println(ll.cycledetect());
 	}
 
 }

@@ -1,5 +1,7 @@
 package Lec47;
 
+
+
 public class LinkedList {
 	
 	class Node{
@@ -174,6 +176,32 @@ String a ="";
 	
 	
 	
+	}
+	
+	public void addcycle(int index) throws Exception {
+		
+		
+		
+		Node t  = getnode(index);
+		tail.next = t;
+		
+	}
+	public boolean cycledetect() {
+		Node slow = this.head;
+	Node  fast  = this.head;
+		
+		while(fast!=null && fast.next!=null) {
+			
+			fast = fast.next.next;
+			slow = slow.next;
+			
+			
+			if(slow==fast) {
+				return true;
+			}
+		}
+		
+		return false;
 	}
 
 
