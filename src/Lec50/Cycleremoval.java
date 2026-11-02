@@ -1,5 +1,7 @@
 package Lec50;
 
+import Lec48.Cycledetect;
+
 public class Cycleremoval {
 
 	
@@ -24,4 +26,6 @@ System.out.println(ll.cycledetect2());
 	System.out.println(ll.cycledetect2());
 		
 	}
+	
+	
 }

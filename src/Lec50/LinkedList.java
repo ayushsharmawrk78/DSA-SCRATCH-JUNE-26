@@ -255,6 +255,33 @@ start = start.next;
 		
 		
 	}
+	public void cycleremoval2() {
+		Node meet = cycledetect();
+		
+		if(meet==null) {
+			return ;
+		}
+		
+		int count =1;
+		Node temp = meet;
+		while(temp.next!=meet) {
+			temp = temp.next;
+			count++;
+		}
+		
+		
+		Node fast = head;
+		for (int i = 1; i <=count; i++) {
+			fast = fast.next;
+			
+		}
+		Node slow = head;
+		while(slow.next!=fast.next) {
+			slow = slow.next;
+			fast = fast.next;
+		}
+		fast.next=null;
+	}
 
 
 }
