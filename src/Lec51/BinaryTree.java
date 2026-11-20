@@ -73,4 +73,39 @@ Scanner in = new Scanner(System.in);
 		
 		Display(nn.right);
 	}
+	
+public void Post(Node nn) {
+		
+		
+		if(nn==null) {
+			return;
+		}
+		
+		Post(nn.left);
+		Post(nn.right);
+		System.out.println(nn.val);
+	}
+	public void In(Node nn) {
+		
+		
+		if(nn==null) {
+			return;
+		}
+		
+		In(nn.left);
+		In(nn.right);
+		System.out.println(nn.val);
+	}
+public void Pre(Node nn) {
+		
+		
+		if(nn==null) {
+			return;
+		}
+		System.out.println(nn.val);
+		Pre(nn.left);
+		Pre(nn.right);
+	
+	}
+
 }
